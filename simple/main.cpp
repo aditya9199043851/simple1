@@ -1,14 +1,16 @@
-//
-//  main.cpp
-//  simple
-//
-//  Created by Apple on 19/04/24.
-//
 
-#include <iostream>
+#include<iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(){
+
+    int a,b;
+    cin>>a>>b;
+    int sum;
+    sum=a+b;
+    cout<<sum;
+    
+
+
     return 0;
 }
